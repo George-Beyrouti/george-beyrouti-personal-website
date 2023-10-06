@@ -94,7 +94,9 @@ const Footer = () => {
                             items-center text-white '
                             download={download} 
                             target= '_blank' 
-                            rel='noreferrer'> 
+                            rel='noreferrer' 
+                            aria-label= {` Visit my ${child} Profile`}
+                            > 
                           {child} 
                           </a>
                         </div>
