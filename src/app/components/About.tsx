@@ -43,6 +43,7 @@ const About = () => {
             <Image
               src={profileImage}
               alt="my profile"
+              priority={true}
               className="rounded-2xl mx-auto w-1/2 md:w-full
               "
             />
