@@ -5,11 +5,13 @@ import { Inter } from 'next/font/google'
 
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "George Beyrouti's Personal Portfolio Website",
   description: "George Beyrouti's Personal Portfolio Website Build with Next.js and Tailwind to provide better performance and SEO Support",
+  
 }
 
 export default function RootLayout({
