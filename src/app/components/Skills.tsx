@@ -23,14 +23,6 @@ import spss from "../assets/spss.png"
 
 import Image from 'next/image'
 
-
-
-
-
-
-
-
-
 const Skills = () => {
 
   const techs = [
@@ -155,8 +147,6 @@ const Skills = () => {
       style: "shadow-red-400", 
     },
   ]
-
-
 
   return (
     <div id="skills" className='bg-gradient-to-b from-gray-800 to-black w-full h-full pt-10'>
