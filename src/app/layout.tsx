@@ -4,10 +4,7 @@ import { Raleway } from 'next/font/google'
 
 
 
-
-
-
-const raleway = Raleway({ subsets: ['latin'] })
+const raleway = Raleway({ subsets: ['latin'], display: "swap" })
 
 
 export const metadata: Metadata = {
