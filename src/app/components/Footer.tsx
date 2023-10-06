@@ -71,7 +71,7 @@ const Footer = () => {
             <div>
               <div className=" lg:text-lg md:text-md sm:text-sm text-xs">Designed by:</div>
               <div className=" lg:text-lg md:text-md sm:text-sm text-xs">George Beyrouti.</div>
-              <div className=" lg:text-lg md:text-md sm:text-sm text-xs my-1">Using React & Tailwind</div> 
+              <div className=" lg:text-lg md:text-md sm:text-sm text-xs my-1">Using Next.js & Tailwind</div> 
             </div>
 
             <div className='text-center text-xl text-white mb-2 max-w-2xl flex justify-center items-center flex-wrap max-h-sm '>
