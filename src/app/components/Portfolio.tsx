@@ -112,7 +112,7 @@ const Portfolio = () => {
             <p className='text-xl mt-5'>{name}</p>
             <p className='text-l my-5 mx-3'>{desc}</p>
 
-            <Image height={250} width={250} src={src} alt="screenshot of the Project HomePage" className=' justify-center rounded-md duration-200 hover:scale-105
+            <Image height={250}  src={src} alt="screenshot of the Project HomePage" className=' justify-center rounded-md duration-200 hover:scale-105
             '
             />
             {/* still needs an on click handler */} 

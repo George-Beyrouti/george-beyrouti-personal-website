@@ -7,7 +7,7 @@ import javascript from "../assets/javascript.png"
 import typescript from "../assets/typescript.png"
 import jquery from "../assets/jquery.png"
 import reactImage from "../assets/react.png"
-// import nextjs from "../assets/nextjs.png"
+import nextjs from "../assets/nextjs.png"
 import reactstrap from "../assets/react-bt.png"
 import tailwind from "../assets/tailwind.png"
 import firebase from "../assets/firebase.png"
@@ -82,12 +82,12 @@ const Skills = () => {
       title: "React",
       style: "shadow-sky-400", 
     },
-    // {
-      // id: 9,
-    //   src: nextjs,
-    //   title: "Next-JS",
-    //   style: "shadow-white", 
-    // },
+    {
+      id: 9,
+      src: nextjs,
+      title: "Next-JS",
+      style: "shadow-white", 
+    },
     {
       id: 10,
       src: reactstrap,
