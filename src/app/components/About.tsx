@@ -44,7 +44,7 @@ const About = () => {
               src={profileImage}
               alt="my profile"
               priority={true}
-              className="rounded-2xl mx-auto w-1/2 md:w-full
+              className="rounded-2xl mx-auto w-1/2 md:w-3/4 lg:w-full
               "
             />
           </div>
