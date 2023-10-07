@@ -15,17 +15,19 @@ const About = () => {
           "
         >
           <div className="flex flex-col justify-center h-full">
-            <h2 className="text-3xl md:text-5xl lg:text-7xl font-bold text-white px-3">
+            <h2 className="text-3xl md:text-5xl lg:text-7xl font-bold text-white">
               I am a MERN full stack WEB Developer
             </h2>
             <p
-              className="text-gray-500 py-4 max-w-md
+              className="text-gray-300 py-4 max-w-md
               "
             >
               Hello, I am a highly motivated web developer with extensive
               project management experience and a strong understanding of
               responsive web design as well as layout principles to reﬁne user
-              experience on. I have a masters studies in business
+              experience on Web apps.
+              <br />
+              I have a masters studies in business
               administration, marketing management & research. currently Looking
               for a new challenge as Junior Web Developer.
             </p>
@@ -65,7 +67,7 @@ const About = () => {
             I am Business administration Bachelor graduate, with a Master
             studies in Marketing Management & Research, With further Training as
             a Full-Stack Web-Developer (MERN) From the Digital Career Institute,
-            Living in Germany
+            Living in Germany.
           </p>
 
           <br />
@@ -73,13 +75,16 @@ const About = () => {
           <p className="text-xl">
             Throughout my education, I have gained experience in developing
             full-stack applications, creating RESTful APIs, and integrating
-            third-party APIs in my React Apps using ExpressJs., MongooDB, MySQL.
+            third-party APIs in my React Apps using Express.js, MongooDB, MySQL.
+            <br />
+            Currently am Working on a new Full Stack Project using TypeScript for improved Type Safety and Next.js to improve Performance and for Better SEO support.
+          </p>
+          <p className="text-xl mt-4">
             I have also honed my skills in Git, Agile methodologies, and
-            collaborative teamwork, which are essential in the fast-paced world
-            of web development. with strong analytical and interpersonal skills,
+            collaborative teamwork, which are essential in the fast-paced world of web development. with strong analytical and interpersonal skills, an undying Passion for Self-improvement am  always on the lookout for Learning opportunities
             professionally proficient in 3 languages, German, English and
-            Arabic. I am looking for an Junior Web-developer / Webentwickler job
-            in the MERN Stack.
+            Arabic. I am looking for an Junior Web-developer / Webentwickler job.
+            
           </p>
         </div>
       </div>
