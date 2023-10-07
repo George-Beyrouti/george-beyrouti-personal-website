@@ -44,7 +44,7 @@ const SocialLinks = () => {
             Phone <AiFillPhone size={30}/>
             </>
       ),
-      href: "tel:+4915752144116",
+      href: "tel:+491749004214",
     },
       {
       id:5, 

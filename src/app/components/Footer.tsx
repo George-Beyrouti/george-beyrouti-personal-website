@@ -52,7 +52,7 @@ const Footer = () => {
               <AiFillPhone size={16}/>
             </>
       ),
-      href: "tel:+4915752144116",
+      href: "tel:+491749004214",
     },
       {
       id:6, 
