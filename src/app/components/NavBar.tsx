@@ -2,6 +2,9 @@
 
 import React, { useState } from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
+import { Great_Vibes } from 'next/font/google'
+const vibes = Great_Vibes({ subsets: ['latin'], weight: "400"})
+
 import Link from 'next/link'
 
 
@@ -35,7 +38,7 @@ const NavBar = () => {
   return (
     <div className='flex justify-between items-center w-full h-20 px-3 text-white  bg-black sticky top-0 z-10'>
       <div>
-        <h1 className="font-signature text-4xl md:text-5xl ml-2">George Beyrouti</h1>
+        <h1 className={`text-4xl md:text-5xl ml-2 ${vibes.className}`}>George Beyrouti</h1>
       </div>
 
       <ul className='hidden md:flex'>
