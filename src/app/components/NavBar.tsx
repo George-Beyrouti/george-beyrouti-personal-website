@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import { Great_Vibes } from 'next/font/google'
-const vibes = Great_Vibes({ subsets: ['latin'], weight: "400"})
+const vibes = Great_Vibes({ subsets: ['latin'], weight: "400", display: "optional"})
 
 import Link from 'next/link'
 
