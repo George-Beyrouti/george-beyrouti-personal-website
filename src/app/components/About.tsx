@@ -83,7 +83,7 @@ const About = () => {
             I have also honed my skills in Git, Agile methodologies, and
             collaborative teamwork, which are essential in the fast-paced world of web development. with strong analytical and interpersonal skills, an undying Passion for Self-improvement am  always on the lookout for Learning opportunities
             professionally proficient in 3 languages, German, English and
-            Arabic. I am looking for an Junior Web-developer / Webentwickler job.
+            Arabic. I am looking for an Junior Web-Developer / Webentwickler job.
             
           </p>
         </div>
