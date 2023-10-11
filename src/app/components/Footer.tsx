@@ -66,7 +66,7 @@ const Footer = () => {
   ];
 
   return (   
-      <div className='  max-w-screen-full w-full bg-gray-800 text-white lg:static  px-2 sticky bottom-0  py-2 '>
+      <div className='  max-w-screen-full w-full bg-gray-800 text-white overscroll-none lg:static  px-2 sticky bottom-0  py-2  '>
         <div className='max-w-screen flex flex-row py-1 mx-auto justify-around items-center'>
             <div>
               <div className=" lg:text-lg md:text-md sm:text-sm text-xs">Designed by: George Beyrouti.</div>

@@ -95,7 +95,7 @@ const Portfolio = () => {
   return ( // the md:h-full in the main div is originally an md:h-screen
     <div id="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full h-full text-white md:h-full py-10' >
 
-      <div className='max-w-screen-lg p-5 mx-auto flex flex-col justify-center w-full h-full py-6'>
+      <div className='max-w-screen-lg p-5 mx-auto flex flex-col place-center w-full h-full py-6'>
 
         <div className='py-5' >
 
@@ -104,7 +104,7 @@ const Portfolio = () => {
           <p className='py-6'>Check out some of my work right here</p>
         </div>
 
-        <div className=' grid lg:grid-cols-3 lg:py-4 lg:px-4 md:grid-cols-3 gap-8 px-8 sm:grid-cols-2 sm:px-0'>
+        <div className=' grid lg:grid-cols-3 lg:py-4 lg:px-4 md:grid-cols-3 gap-8 md:gap-8  sm:grid-cols-2  px-4'>
 
 
       {portfolios.map(({id, name, desc,  src ,git, demo}) =>(

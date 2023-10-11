@@ -33,7 +33,7 @@ const About = () => {
             </p>
 
             <Link href="#portfolio">
-              <div className="group text-white w-fit px-6 py-3 my-2 flex item-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+              <div className="group text-white w-fit px-6 py-3 mt-2 mb-6 flex item-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                 Portfolio
                 <span className="group-hover:rotate-90 duration-300">
                   <HiArrowRight size={20} className="ml-2 " />
@@ -46,7 +46,7 @@ const About = () => {
               src={profileImage}
               alt="my profile"
               priority={true}
-              className="rounded-2xl mx-auto w-1/2 md:w-3/4 lg:w-full
+              className="rounded-2xl mx-auto w-2/3 md:w-3/4 lg:w-full
               "
             />
           </div>
@@ -55,7 +55,7 @@ const About = () => {
 
       <div
         id="about"
-        className="w-full h-full bg-gradient-to-b from-gray-800 to-black text-white pt-10"
+        className="w-full h-full bg-gradient-to-b from-gray-800 to-black text-white pt-5"
       >
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full pt-10">
           <div className="pb-6">
@@ -63,7 +63,7 @@ const About = () => {
               About Me
             </p>
           </div>
-          <p className="text-xl mt-20">
+          <p className="text-xl mt-5">
             I am Business administration Bachelor graduate, with a Master
             studies in Marketing Management & Research, With further Training as
             a Full-Stack Web-Developer (MERN) From the Digital Career Institute,
