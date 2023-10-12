@@ -38,7 +38,7 @@ const NavBar = () => {
   ]
 
   return (
-    <div className='flex justify-between items-center w-full h-20 px-3 text-white  bg-black sticky top-0 z-10'>
+    <div className='flex justify-between items-center w-full h-14 md:h-20 px-3 text-white  bg-black sticky top-0 z-10'>
       <div>
         {/* <h1 className="text-4xl md:text-5xl ml-2 ">George Beyrouti</h1> */}
         <Image src={logo} alt="tech stack list item" height={50}  className='w-50 md:w-60 m-2'/>

@@ -8,10 +8,10 @@ const About = () => {
     <>
       <div
         id="home"
-        className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 py-1"
+        className="h-screen md:h-full md:py-28 lg:h-full lg:py-28 w-full bg-gradient-to-b from-black via-black to-gray-800 py-1 xs:h-full xs:mt-20"
       >
         <div
-          className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row 
+          className=" max-w-screen-lg mx-auto flex flex-col-reverse items-center justify-center h-full px-4 md:flex-row 
           "
         >
           <div className="flex flex-col justify-center h-full">
@@ -19,7 +19,7 @@ const About = () => {
               I am a MERN full stack WEB Developer
             </h2>
             <p
-              className="text-gray-300 py-4 max-w-md
+              className="text-gray-300 py-4 max-w-md text-base md:text-lg
               "
             >
               Hello, I am a highly motivated web developer with extensive
@@ -41,7 +41,7 @@ const About = () => {
               </div>
             </Link>
           </div>
-          <div>
+          <div className="py-10">
             <Image
               src={profileImage}
               alt="my profile"
@@ -63,7 +63,7 @@ const About = () => {
               About Me
             </p>
           </div>
-          <p className="text-xl mt-5">
+          <p className="mt-5 text-lg md:text-xl">
             I am Business administration Bachelor graduate, with a Master
             studies in Marketing Management & Research, With further Training as
             a Full-Stack Web-Developer (MERN) From the Digital Career Institute,
