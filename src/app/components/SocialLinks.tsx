@@ -53,7 +53,7 @@ const SocialLinks = () => {
             Location <SiGooglemaps size={30}/>
             </>
       ),
-      href: "https://www.google.com/maps/place/58452+Witten/@51.4171084,7.2950111,13z/data=!4m5!3m4!1s0x47b9218634150e0d:0x1c27f284915b8340!8m2!3d51.4177772!4d7.3264627",
+      href: "https://www.google.com/maps/place/Hauptstra%C3%9Fe,+58452+Witten/@51.4423676,7.3334672,17z/data=!3m1!4b1!4m6!3m5!1s0x47b921f776194ed9:0xc8199c3391c1c749!8m2!3d51.4423643!4d7.3360421!16s%2Fg%2F1trrc8ng?entry=ttu",
     },
           {
       id:6, 
